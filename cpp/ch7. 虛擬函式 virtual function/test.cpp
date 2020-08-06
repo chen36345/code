@@ -1,5 +1,6 @@
 #include "header.h"
 
+//是次，做一個直線預測徒步、腳踏車、捷運距離與所需時間的code
 int main()
 {
 	People people;
