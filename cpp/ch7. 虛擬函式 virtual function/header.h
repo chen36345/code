@@ -11,7 +11,7 @@ private:
 	void ask_distance(int d){
 		distance = d;
 	}
-	virtual int speed() = 0;
+	virtual int speed() = 0; // 當純虛擬函式被宣告時，宣告之子類別必須要有int speed()的宣告
 	
 public:
 	int function(int c);
