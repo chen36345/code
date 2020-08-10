@@ -122,7 +122,7 @@ void set_test()
 
 //資料依序加入map容器內,以int ID 為key,  string name 為value 實作該容器
 //由使用者輸入ID, 找出是否存在,找到或找到後移除
-//此容器具有排列的功能，但只能唯一，且一對一。若希望key能不唯一，請使用multiset
+//此容器具有排列的功能，但key只能唯一。若希望key能不唯一，請使用multimap
 void map_test()
 {
 	bool exist, exist1;
